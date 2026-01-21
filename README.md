@@ -5,7 +5,7 @@ An end-to-end **Data Science & Machine Learning project** that analyzes e-commer
 Link: https://shopper-spectrum-project.streamlit.app/
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 The global e-commerce industry generates massive volumes of transactional data every day. Proper analysis of this data enables businesses to understand customer behavior, design targeted marketing strategies, improve retention, and deliver personalized product recommendations.
 
@@ -18,7 +18,7 @@ This project focuses on:
 
 ---
 
-## 🎯 Business Objectives
+## Business Objectives
 
 * Identify **High-Value, Regular, Occasional, and At-Risk customers**
 * Enable **targeted marketing campaigns**
@@ -28,14 +28,14 @@ This project focuses on:
 
 ---
 
-## 🧠 Problem Type
+## Problem Type
 
 * **Unsupervised Machine Learning** – Customer Segmentation (Clustering)
 * **Collaborative Filtering** – Product Recommendation System
 
 ---
 
-## 📂 Dataset Description
+## Dataset Description
 
 The dataset contains transactional data from an online retail store.
 
@@ -54,9 +54,9 @@ After cleaning, the final dataset contains **392,692 transactions** with no miss
 
 ---
 
-## 🔧 Project Workflow
+## Project Workflow
 
-### 1️⃣ Data Cleaning & Preprocessing
+### 1️. Data Cleaning & Preprocessing
 
 * Removed missing CustomerIDs
 * Removed cancelled invoices
@@ -64,7 +64,7 @@ After cleaning, the final dataset contains **392,692 transactions** with no miss
 * Converted dates to proper datetime format
 * Created a `TotalPrice` feature
 
-### 2️⃣ Exploratory Data Analysis (EDA)
+### 2️. Exploratory Data Analysis (EDA)
 
 EDA was conducted using the **UBM rule**:
 
@@ -79,7 +79,7 @@ EDA was conducted using the **UBM rule**:
 * A small set of products generates a large share of revenue
 * Customer behavior is highly skewed
 
-### 3️⃣ RFM Feature Engineering
+### 3️. RFM Feature Engineering
 
 For each customer:
 
@@ -89,7 +89,7 @@ For each customer:
 
 A customer-level RFM dataset with **4,338 unique customers** was created.
 
-### 4️⃣ Customer Segmentation (Clustering)
+### 4️. Customer Segmentation (Clustering)
 
 * Applied log transformation and standard scaling
 * Used **KMeans clustering**
@@ -109,7 +109,7 @@ A customer-level RFM dataset with **4,338 unique customers** was created.
 
 ---
 
-## 🛍 Product Recommendation System
+## Product Recommendation System
 
 * **Approach:** Item-based Collaborative Filtering
 * **Similarity Metric:** Cosine Similarity
@@ -120,7 +120,7 @@ The system recommends products based on **customer co-purchase behavior**, not t
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * **Programming:** Python
 * **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
@@ -130,7 +130,7 @@ The system recommends products based on **customer co-purchase behavior**, not t
 
 ---
 
-## 📌 Key Learnings
+## Key Learnings
 
 * Practical RFM-based customer segmentation
 * Importance of business-driven cluster interpretation
@@ -139,7 +139,7 @@ The system recommends products based on **customer co-purchase behavior**, not t
 
 ---
 
-## 📊 Future Improvements
+## Future Improvements
 
 * NLP-based product name normalization
 * Hybrid recommendation system
@@ -149,8 +149,7 @@ The system recommends products based on **customer co-purchase behavior**, not t
 ---
 
 ## 👤 Author
-
+```
 **Avinash Singh**
 B.Tech CSE (AI) | Data Science & Machine Learning Enthusiast
-
----
+```
