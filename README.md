@@ -2,6 +2,7 @@
 
 An end-to-end **Data Science & Machine Learning project** that analyzes e-commerce transaction data to segment customers using **RFM analysis + KMeans clustering** and recommend products using **Item-based Collaborative Filtering**. The project concludes with an interactive **Streamlit web application** for real-time predictions.
 
+Link: https://shopper-spectrum-project.streamlit.app/
 ---
 
 ## 📌 Project Overview
