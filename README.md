@@ -148,8 +148,9 @@ The system recommends products based on **customer co-purchase behavior**, not t
 
 ---
 
-## 👤 Author
-```
+##  Author
+
 **Avinash Singh**
+
 B.Tech CSE (AI) | Data Science & Machine Learning Enthusiast
-```
+
