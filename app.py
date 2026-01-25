@@ -132,14 +132,15 @@ if option == "Customer Segmentation":
         cluster = kmeans.predict(scaled_input)[0]
 
         # Correct cluster-to-segment mapping
-       cluster_map = {
-           0: "Occasional Customer",
-           1: "High-Value Customer",
-           2: "Regular Customer",
-           3: "At-Risk Customer"
-       }
-       segment = cluster_map[cluster]
-       st.success(f"Predicted Segment: **{segment}**")
+        cluster_map = {
+            0: "Occasional Customer",
+            1: "High-Value Customer",
+            2: "Regular Customer",
+            3: "At-Risk Customer"
+        }
+        segment = cluster_map[cluster]
+        st.success(f"Predicted Segment: **{segment}**")
+
 
 
 
