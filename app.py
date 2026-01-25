@@ -133,13 +133,13 @@ if option == "Customer Segmentation":
 
         # Correct cluster-to-segment mapping
        cluster_map = {
-            0: "Occasional Customer",
-            1: "High-Value Customer",
-            2: "Regular Customer",
-            3: "At-Risk Customer"
-        }
+           0: "Occasional Customer",
+           1: "High-Value Customer",
+           2: "Regular Customer",
+           3: "At-Risk Customer"
+       }
+       segment = cluster_map[cluster]
+       st.success(f"Predicted Segment: **{segment}**")
 
-        segment = cluster_map[cluster]
-        st.success(f"Predicted Segment: **{segment}**")
 
 
