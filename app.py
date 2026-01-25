@@ -142,5 +142,4 @@ if option == "Customer Segmentation":
         segment = cluster_map[cluster]
         st.success(f"Predicted Segment: **{segment}**")
 
-        st.success(f"Predicted Segment: **{segment}**")
 
